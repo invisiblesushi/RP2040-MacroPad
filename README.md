@@ -1,4 +1,6 @@
 # RP2040-MacroPad
+<img src="PCB/PCB.png" width="500">
+<img src="PCB/Schematic_RP2040 macropad.png" width="500">
 
 Xioa seed RP2040 gpio mapping
 | GPIO PIN | XIAO PIN | XIAO PIN | GPIO PIN |
