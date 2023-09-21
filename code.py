@@ -6,6 +6,7 @@ from adafruit_hid.keyboard import Keyboard
 from adafruit_hid.keycode import Keycode
 from custom_keycodes import CustomKeycode
 
+
 # Define GPIO pins for buttons
 button_pins = [
     board.GP0,   # Button 0
@@ -29,7 +30,7 @@ button_key_combinations = [
     [Keycode.F5],                               # Button 5  Resume program
     CustomKeycode.OPEN_BRACE,                   # Button 6  {
     [Keycode.F10],                              # Button 7  Step over
-    CustomKeycode.EXCLAMATION_MARK              # Button 8  !
+    [Keycode.LEFT_ALT, CustomKeycode.ENTER]     # Button 8  Alt + Enter
 ]
 
 # Button init
