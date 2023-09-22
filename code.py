@@ -6,7 +6,6 @@ from adafruit_hid.keyboard import Keyboard
 from adafruit_hid.keycode import Keycode
 from custom_keycodes import CustomKeycode
 
-
 # Define GPIO pins for buttons
 button_pins = [
     board.GP0,   # Button 0
@@ -38,7 +37,7 @@ buttons = [digitalio.DigitalInOut(pin) for pin in button_pins]
 for button in buttons:
     button.direction = digitalio.Direction.INPUT
     button.pull = digitalio.Pull.UP
-    
+
 button_state = {i: False for i in range(len(button_pins))}
 keyboard = Keyboard(usb_hid.devices)
 keyboard.release_all()
