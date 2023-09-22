@@ -20,7 +20,7 @@ To get started with your RP2040-MacroPad, follow these steps:
 1. **Install CircuitPython**
 2. **Install Required Libraries**: `adafruit_hid` and `custom_keycodes`
 3. **Upload the Code**: Upload the provided Python script (`code.py`) to RP2040.
-4. **Customize keymapping in `code.py`
+4. **Customize keymapping in** `code.py`
 
 ## Xiao seeed RP2040 gpio mapping
 | Button   | GPIO PIN | XIAO PIN | XIAO PIN | GPIO PIN | Button   |
