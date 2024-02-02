@@ -8,15 +8,15 @@ from custom_keycodes import CustomKeycode
 
 # Define GPIO pins for buttons
 button_pins = [
-    board.GP0,   # Button 0
-    board.GP1,   # Button 1
-    board.GP2,   # Button 2
-    board.GP3,   # Button 3
-    board.GP4,   # Button 4
-    board.GP6,   # Button 5
-    board.GP7,   # Button 6
-    board.GP26,  # Button 7
-    board.GP27   # Button 8
+    board.D6,   # Button 0 pin 0
+    board.D7,   # Button 1 pin 1
+    board.D8,   # Button 2 pin 2
+    board.D10,   # Button 3 pin 3
+    board.D9,   # Button 4 pin 4
+    board.D4,   # Button 5 pin 6
+    board.D5,   # Button 6 pin 7
+    board.A0,  # Button 7 pin 26
+    board.D1   # Button 8 pin 27
 ]
 
 # Define key combinations for each button
